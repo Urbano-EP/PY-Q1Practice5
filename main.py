@@ -5,4 +5,4 @@ def display_char(e):
 
     get_word = document.getElementById("word").value
 
-    display(get_word[:3]) #get the 1st 3 letters of the word
+    display(get_word[:3], target="output1") #get the 1st 3 letters of the word
