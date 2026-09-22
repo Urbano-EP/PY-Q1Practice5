@@ -6,9 +6,60 @@
     <title>Q1 Practice 5</title>
     <link rel="stylesheet" href="https://pyscript.net/releases/2025.3.1/core.css" />
     <script type="module" src="https://pyscript.net/releases/2025.3.1/core.js"></script>
+
+    <style>
+    body {
+        font-family: Arial;
+        background-color: lightblue;
+        text-align: center;
+    }
+
+    .container {
+        background-color: white;
+        width: 450px;
+        margin: 50px auto;
+        padding: 30px;
+        border: 2px solid #3480b3;
+    }
+
+    .box {
+        border: 1px solid #3480b3;
+        margin: 15px;
+        padding: 15px;
+    }
+
+    h1 {
+        color: #3480b3;
+    }
+
+    label {
+        color: #b33434;
+        font-weight: bold;
+    }
+
+    input, select {
+        width: 250px;
+        padding: 8px;
+        margin-top: 8px;
+    }
+
+    button {
+        background-color: #3480b3;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        margin: 10px;
+    }
+
+    #output1 {
+        font-weight: bold;
+    }
+</style>
+
 </head>
 <body>
-    <div>
+    <div class="container">
+        <h1>SKU Generator</h1>
         <form>
             <label form="category">Select a product category:</label>
             <br>
